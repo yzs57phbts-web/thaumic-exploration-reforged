@@ -1,0 +1,221 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "thaumicexploration:blocks/everfullurn",
+    "base": "thaumicexploration:blocks/everfullurn",
+    "middle": "thaumicexploration:blocks/everfullurnms",
+    "rim": "thaumicexploration:blocks/everfullurnts",
+    "bb": "thaumicexploration:blocks/everfullurnbb",
+    "bt": "thaumicexploration:blocks/everfullurnbt",
+    "tt": "thaumicexploration:blocks/everfullurntt",
+    "tb": "thaumicexploration:blocks/everfullurntb"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        9,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base",
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#base",
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#base",
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#base",
+          "uv": [
+            2,
+            7,
+            14,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#bt",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#bb",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        9,
+        5
+      ],
+      "to": [
+        11,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#middle",
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#middle",
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#middle",
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#middle",
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ]
+        },
+        "up": {
+          "texture": "#middle",
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ]
+        },
+        "down": {
+          "texture": "#middle",
+          "uv": [
+            5,
+            3,
+            11,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        13,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rim",
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#rim",
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#rim",
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#rim",
+          "uv": [
+            4,
+            0,
+            12,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#tt",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#tb",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

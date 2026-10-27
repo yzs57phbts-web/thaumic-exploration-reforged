@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumicexploration:items/sealjar"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "thaumicexploration:linked": 1
+      },
+      "model": "thaumicexploration:item/yellow_jar_seal_linked"
+    }
+  ]
+}

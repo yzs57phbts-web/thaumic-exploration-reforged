@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:fire_aspect",
+    {
+      "id": "thaumictinkerer:vampirism",
+      "required": false
+    }
+  ]
+}

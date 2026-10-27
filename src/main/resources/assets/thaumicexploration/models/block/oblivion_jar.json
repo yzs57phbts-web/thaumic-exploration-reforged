@@ -1,0 +1,147 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:translucent",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "thaumicexploration:legacy/jar_oblivion",
+    "jar": "thaumicexploration:legacy/jar_oblivion"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        12,
+        13
+      ],
+      "faces": {
+        "west": {
+          "texture": "#jar",
+          "uv": [
+            2.5,
+            11.0,
+            0.0,
+            5.0
+          ]
+        },
+        "north": {
+          "texture": "#jar",
+          "uv": [
+            5.0,
+            11.0,
+            2.5,
+            5.0
+          ]
+        },
+        "east": {
+          "texture": "#jar",
+          "uv": [
+            7.5,
+            11.0,
+            5.0,
+            5.0
+          ]
+        },
+        "south": {
+          "texture": "#jar",
+          "uv": [
+            10.0,
+            11.0,
+            7.5,
+            5.0
+          ]
+        },
+        "up": {
+          "texture": "#jar",
+          "uv": [
+            2.5,
+            0.0,
+            5.0,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "#jar",
+          "uv": [
+            5.0,
+            5.0,
+            7.5,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        5
+      ],
+      "to": [
+        11,
+        14,
+        11
+      ],
+      "faces": {
+        "west": {
+          "texture": "#jar",
+          "uv": [
+            1.5,
+            16.0,
+            0.0,
+            15.0
+          ]
+        },
+        "north": {
+          "texture": "#jar",
+          "uv": [
+            3.0,
+            16.0,
+            1.5,
+            15.0
+          ]
+        },
+        "east": {
+          "texture": "#jar",
+          "uv": [
+            4.5,
+            16.0,
+            3.0,
+            15.0
+          ]
+        },
+        "south": {
+          "texture": "#jar",
+          "uv": [
+            6.0,
+            16.0,
+            4.5,
+            15.0
+          ]
+        },
+        "up": {
+          "texture": "#jar",
+          "uv": [
+            1.5,
+            12.0,
+            3.0,
+            15.0
+          ]
+        },
+        "down": {
+          "texture": "#jar",
+          "uv": [
+            3.0,
+            15.0,
+            4.5,
+            12.0
+          ]
+        }
+      }
+    }
+  ]
+}

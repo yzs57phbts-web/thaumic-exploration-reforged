@@ -1,0 +1,101 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "thaumcraft:block/jar_side",
+    "side": "thaumcraft:block/jar_side",
+    "top": "thaumcraft:block/jar_top",
+    "bottom": "thaumcraft:block/jar_bottom",
+    "seal": "thaumicexploration:blocks/boundjaroverlayseal"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        12,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        5
+      ],
+      "to": [
+        11,
+        14,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bottom"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        14.01,
+        5
+      ],
+      "to": [
+        11,
+        14.02,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#seal",
+          "tintindex": 0,
+          "uv": [
+            1.5,
+            12,
+            3,
+            15
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:translucent"
+}

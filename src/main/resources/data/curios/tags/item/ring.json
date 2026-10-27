@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thaumicexploration:tentacle_ring",
+    "thaumicexploration:air_ring",
+    "thaumicexploration:earth_ring",
+    "thaumicexploration:fire_ring",
+    "thaumicexploration:water_ring",
+    "thaumicexploration:order_ring",
+    "thaumicexploration:entropy_ring"
+  ]
+}

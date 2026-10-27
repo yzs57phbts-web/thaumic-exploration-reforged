@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/floatycandle"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/floatycandlestub"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "thaumicexploration:models/soulbrazier"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "items",
+      "prefix": "items/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "blocks",
+      "prefix": "blocks/"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "legacy",
+      "prefix": "legacy/"
+    }
+  ]
+}

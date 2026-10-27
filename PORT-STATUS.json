@@ -1,0 +1,140 @@
+{
+  "version": "1.1.53-port.9",
+  "required_tests_passed": 121,
+  "optional_test_failures": 0,
+  "jar_sha256": "0e61e14c802b53209652562cf2af6d52e8f6c2ebe2100d4b21aad3c3b546a862",
+  "russian_keys": 257,
+  "russian_sha256": "9d9302e255a1179e1b1b5d13f79632d14ecaaadb2e740838acd61b2471cb4add",
+  "screenshots": [
+    "port9-jars-world-and-liquid.png",
+    "port9-jar-first-person.png",
+    "port9-jar-gui.png",
+    "port9-jar-third-person.png"
+  ],
+  "real_audio_channels": [
+    "minecraft:block.chest.close",
+    "minecraft:block.chest.open",
+    "minecraft:entity.generic.eat",
+    "minecraft:entity.generic.swim",
+    "minecraft:entity.item.pickup",
+    "thaumcraft:craftstart",
+    "thaumcraft:jar",
+    "thaumcraft:roots",
+    "thaumcraft:tentacle",
+    "thaumcraft:zap"
+  ],
+  "expected_audio_channels": [
+    "minecraft:entity.generic.swim",
+    "minecraft:entity.generic.eat",
+    "minecraft:entity.item.pickup",
+    "minecraft:block.chest.open",
+    "minecraft:block.chest.close",
+    "thaumcraft:craftstart",
+    "thaumcraft:zap",
+    "thaumcraft:roots",
+    "thaumcraft:tentacle",
+    "thaumcraft:jar"
+  ],
+  "upstream_audio_files": [
+    {
+      "event": "thaumcraft:jar",
+      "path": "assets/thaumcraft/sounds/jar1.ogg",
+      "upstream_sha256": "3d2a75e5dfa5e1afd963692c9d31b89faea48e26df6d55578a52728cfcf3e9e4",
+      "ported_sha256": "3d2a75e5dfa5e1afd963692c9d31b89faea48e26df6d55578a52728cfcf3e9e4",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:jar",
+      "path": "assets/thaumcraft/sounds/jar2.ogg",
+      "upstream_sha256": "b62c39158f4f01cc8d85d642a25401f2c8ce1af645b8fdffe9708535b03037ee",
+      "ported_sha256": "b62c39158f4f01cc8d85d642a25401f2c8ce1af645b8fdffe9708535b03037ee",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:jar",
+      "path": "assets/thaumcraft/sounds/jar3.ogg",
+      "upstream_sha256": "2d776e3469d34e26777d12f1166a4bf22bda8f6dd83d3bc10aec43f4d5247585",
+      "ported_sha256": "2d776e3469d34e26777d12f1166a4bf22bda8f6dd83d3bc10aec43f4d5247585",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:jar",
+      "path": "assets/thaumcraft/sounds/jar4.ogg",
+      "upstream_sha256": "c8484342dd475bdff8ffb5b27619fffe82b024a7bcc1aa99624d8d73968fdaf5",
+      "ported_sha256": "c8484342dd475bdff8ffb5b27619fffe82b024a7bcc1aa99624d8d73968fdaf5",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:roots",
+      "path": "assets/thaumcraft/sounds/roots1.ogg",
+      "upstream_sha256": "0ade94a100d8fdf271b00440000a7459c845c31d256b0bf72189ac368d9fc4ff",
+      "ported_sha256": "0ade94a100d8fdf271b00440000a7459c845c31d256b0bf72189ac368d9fc4ff",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:roots",
+      "path": "assets/thaumcraft/sounds/roots2.ogg",
+      "upstream_sha256": "148d37919d58b50f578c35b58c3383e506cc68b78c12bb5635b3a8752bdf8200",
+      "ported_sha256": "148d37919d58b50f578c35b58c3383e506cc68b78c12bb5635b3a8752bdf8200",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:roots",
+      "path": "assets/thaumcraft/sounds/roots3.ogg",
+      "upstream_sha256": "efce54fccb006743bd7f9d6529fe2ae1565cc0233c81bcf36aad3460b2eed552",
+      "ported_sha256": "efce54fccb006743bd7f9d6529fe2ae1565cc0233c81bcf36aad3460b2eed552",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:tentacle",
+      "path": "assets/thaumcraft/sounds/tentacle1.ogg",
+      "upstream_sha256": "99fac5b77c1fd44497304866d1becfb7f8a4991cf5a390c877c4f084bcfe27b7",
+      "ported_sha256": "99fac5b77c1fd44497304866d1becfb7f8a4991cf5a390c877c4f084bcfe27b7",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:tentacle",
+      "path": "assets/thaumcraft/sounds/tentacle2.ogg",
+      "upstream_sha256": "c6b7e6b0f89660071abecc94495789fa5c8ef2191e6d53b0606ced7854850510",
+      "ported_sha256": "c6b7e6b0f89660071abecc94495789fa5c8ef2191e6d53b0606ced7854850510",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:tentacle",
+      "path": "assets/thaumcraft/sounds/tentacle3.ogg",
+      "upstream_sha256": "a7167984a13c57c31f1d1259619a93293bdfc0b7b7f50a540686b1e462422293",
+      "ported_sha256": "a7167984a13c57c31f1d1259619a93293bdfc0b7b7f50a540686b1e462422293",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:craftstart",
+      "path": "assets/thaumcraft/sounds/craftstart.ogg",
+      "upstream_sha256": "12712a02f85f5c1ce135b6dfaf534476ed0fff787a91c3d9351820106da7b5e4",
+      "ported_sha256": "12712a02f85f5c1ce135b6dfaf534476ed0fff787a91c3d9351820106da7b5e4",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:zap",
+      "path": "assets/thaumcraft/sounds/zap1.ogg",
+      "upstream_sha256": "65aba6a1c2fd085c3c4092d3b07b8fc1224586b1efddf91d65ba1a765077a20a",
+      "ported_sha256": "65aba6a1c2fd085c3c4092d3b07b8fc1224586b1efddf91d65ba1a765077a20a",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:zap",
+      "path": "assets/thaumcraft/sounds/zap2.ogg",
+      "upstream_sha256": "306fcca62dfccbb7e80a9798db313019e51ef3a87eadca7b6dfa307dbea61128",
+      "ported_sha256": "306fcca62dfccbb7e80a9798db313019e51ef3a87eadca7b6dfa307dbea61128",
+      "identical": true
+    },
+    {
+      "event": "thaumcraft:rumble",
+      "path": "assets/thaumcraft/sounds/rumble.ogg",
+      "upstream_sha256": "e7cf1830a5da153e60ebdf4208d3bf13ddfc2edd2f9f195f3dc8ee2bf256bb11",
+      "ported_sha256": "c28e7b973e7b51183d244193b224725bc06271a34c0819ae2e05b75cc70c85f4",
+      "identical": false
+    }
+  ],
+  "original_te_has_own_audio_files": false,
+  "previous_effects_report": "RESOLUTION-EFFECTS-RU.txt"
+}

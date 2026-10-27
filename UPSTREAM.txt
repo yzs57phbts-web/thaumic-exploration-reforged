@@ -1,0 +1,16 @@
+Original authors: Flaxbeard, nekosune, and contributors.
+Mechanical reference for port.4: official ThaumicExploration-1.7.10-1.1-53.jar
+https://www.curseforge.com/minecraft/mc-mods/thaumic-exploration/files/2263414
+SHA256: ac85715fdf40a162d4b360b962a14d64a373535d002c04e4b24dfa51aeaa4b01
+Decompiled locally with Vineflower 1.12.0. Parent tentacle behaviour checked
+against Thaumcraft-1.7.10-4.2.3.5.jar. GTNH master is a secondary source,
+not the exact source version of the official 1.1-53 release.
+Early reference: https://github.com/Flaxbeard/Thaumic_Exploration
+Secondary source and retained assets: https://github.com/GTNewHorizons/Thaumic_Exploration
+Secondary reference commit: 16723f1eceab6bb2da267ae92ed96a57d1c5948b
+Soul Brazier and Everburn Urn derive from the original 2014-2015 implementation,
+with persistent offline warp returns and modern NeoForge chunk tickets.
+Upstream license: CC BY-NC-SA 4.0. See LICENSE-TE.txt.
+Minecraft 1.7.10 chest skin obtained from Mojang's original client.
+Local adaptations: Minecraft 1.21.1 / NeoForge, Russian localization,
+Thaumcraft 4 Reforged and Thaumic Tinkerer Reforged integration.

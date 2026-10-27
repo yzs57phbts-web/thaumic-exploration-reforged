@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumicexploration:items/sealchest"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "thaumicexploration:linked": 1
+      },
+      "model": "thaumicexploration:item/pink_chest_seal_linked"
+    }
+  ]
+}

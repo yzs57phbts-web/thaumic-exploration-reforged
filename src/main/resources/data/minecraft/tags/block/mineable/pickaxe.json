@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thaumicexploration:think_tank",
+    "thaumicexploration:everfull_urn",
+    "thaumicexploration:crucible_of_souls",
+    "thaumicexploration:replicator",
+    "thaumicexploration:oblivion_jar",
+    "thaumicexploration:bound_jar",
+    "thaumicexploration:auto_sorter"
+  ]
+}

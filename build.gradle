@@ -1,0 +1,61 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'thaumicexploration'
+base { archivesName = 'thaumic-exploration-reforged' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+repositories {
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://maven.minecraftforge.net/' }
+}
+neoForge {
+    version = '21.1.264'
+    parchment { minecraftVersion = '1.21.1'; mappingsVersion = '2024.11.17' }
+    runs {
+        client {
+            client(); gameDirectory = file('run/client'); systemProperty 'tx.clientSmoke', providers.gradleProperty('clientSmoke').orElse('false').get()
+            systemProperty 'tx.effectsSmoke', providers.gradleProperty('effectsSmoke').orElse('false').get()
+            systemProperty 'tx.activitySmoke', providers.gradleProperty('activitySmoke').orElse('false').get()
+            systemProperty 'tx.jarSmoke', providers.gradleProperty('jarSmoke').orElse('false').get()
+            systemProperty 'tx.worldSmoke', providers.gradleProperty('worldSmoke').orElse('false').get()
+            if(providers.gradleProperty('worldSmoke').orElse('false').get()=='true') { programArgument '--quickPlaySingleplayer'; programArgument 'tx-validation'; programArgument '--width'; programArgument '1280'; programArgument '--height'; programArgument '800' }
+            if(providers.gradleProperty('clientSmoke').orElse('false').get()=='true') { programArgument '--width'; programArgument '1280'; programArgument '--height'; programArgument '800' }
+        }
+        server { server(); gameDirectory = file('run/server'); programArgument '--nogui' }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = file('run/gametest')
+            programArgument '--world'
+            programArgument file('build/gametestworld').absolutePath
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'thaumicexploration'
+        }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { thaumicexploration { sourceSet(sourceSets.main) } }
+}
+dependencies {
+    implementation files(providers.gradleProperty('coreJar').orElse('libs/thaumcraft-4-reforged-1.1-bbtt.30-filter.1-1.21.1.jar').get())
+    implementation files(providers.gradleProperty('tinkererJar').orElse('libs/thaumic-tinkerer-reforged-1.1-bbtt.3-1.21.1.jar').get())
+    if(providers.gradleProperty('terraBlenderJar').isPresent()) {
+        implementation files(providers.gradleProperty('terraBlenderJar').get())
+    } else {
+        implementation 'com.github.glitchfiend:TerraBlender-neoforge:1.21.1-4.1.0.1'
+    }
+    implementation 'top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+processResources { inputs.property('version', mod_version); filesMatching('META-INF/neoforge.mods.toml') { expand(version: mod_version) } }
+tasks.named('jar', Jar) { archiveFileName = "thaumic-exploration-reforged-${mod_version}-1.21.1.jar" }
+tasks.named('runGameTestServer') {
+    doFirst { file('run/gametest/logs/latest.log').delete() }
+    doLast {
+        def log = file('run/gametest/logs/latest.log')
+        if (!log.isFile() || !(log.text =~ /All [1-9][0-9]* required tests passed/) || (log.text =~ /[1-9][0-9]* optional tests failed/) || (log.text =~ /[1-9][0-9]* required tests failed/)) {
+            throw new GradleException('GameTest server did not finish a successful test run')
+        }
+    }
+}
+
+apply from: 'gradle/isolated-gametests.gradle'

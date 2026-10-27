@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " X ",
+    "XZX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "thaumcraft:magic_tallow"
+    },
+    "Z": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "thaumicexploration:red_blank_seal",
+    "count": 1
+  }
+}

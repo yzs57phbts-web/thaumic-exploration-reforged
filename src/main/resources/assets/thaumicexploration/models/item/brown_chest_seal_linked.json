@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumicexploration:items/sealchest",
+    "layer1": "thaumicexploration:items/sealchestinset"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.thaumicexploration.disarming"
+  },
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {},
+  "exclusive_set": "#thaumicexploration:disarming_exclusive"
+}

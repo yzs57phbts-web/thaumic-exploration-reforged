@@ -1,0 +1,422 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:translucent",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "thaumicexploration:legacy/largejar",
+    "shell": "thaumicexploration:legacy/largejar",
+    "lid": "thaumicexploration:legacy/jar",
+    "brine": "thaumicexploration:legacy/largejarbrine",
+    "brain": "thaumicexploration:legacy/brain"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "west": {
+          "texture": "#shell",
+          "uv": [
+            0.0,
+            8.0,
+            4.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#shell",
+          "uv": [
+            4.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#shell",
+          "uv": [
+            8.0,
+            8.0,
+            12.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#shell",
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#shell",
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "down": {
+          "texture": "#shell",
+          "uv": [
+            8.0,
+            8.0,
+            12.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        16,
+        5
+      ],
+      "to": [
+        11,
+        18,
+        11
+      ],
+      "faces": {
+        "west": {
+          "texture": "#lid",
+          "uv": [
+            0.0,
+            15.0,
+            1.5,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#lid",
+          "uv": [
+            1.5,
+            15.0,
+            3.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#lid",
+          "uv": [
+            3.0,
+            15.0,
+            4.5,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#lid",
+          "uv": [
+            4.5,
+            15.0,
+            6.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#lid",
+          "uv": [
+            1.5,
+            12.0,
+            3.0,
+            15.0
+          ]
+        },
+        "down": {
+          "texture": "#lid",
+          "uv": [
+            3.0,
+            15.0,
+            4.5,
+            12.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "west": {
+          "texture": "#brine",
+          "uv": [
+            0.0,
+            7.0,
+            3.5,
+            14.0
+          ]
+        },
+        "north": {
+          "texture": "#brine",
+          "uv": [
+            3.5,
+            7.0,
+            7.0,
+            14.0
+          ]
+        },
+        "east": {
+          "texture": "#brine",
+          "uv": [
+            7.0,
+            7.0,
+            10.5,
+            14.0
+          ]
+        },
+        "south": {
+          "texture": "#brine",
+          "uv": [
+            10.5,
+            7.0,
+            14.0,
+            14.0
+          ]
+        },
+        "up": {
+          "texture": "#brine",
+          "uv": [
+            3.5,
+            0.0,
+            7.0,
+            7.0
+          ]
+        },
+        "down": {
+          "texture": "#brine",
+          "uv": [
+            7.0,
+            7.0,
+            10.5,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.2,
+        5.6000000000000005,
+        1.6
+      ],
+      "to": [
+        9.8,
+        8.6,
+        6.4
+      ],
+      "faces": {
+        "west": {
+          "texture": "#brain",
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.5
+          ]
+        },
+        "north": {
+          "texture": "#brain",
+          "uv": [
+            2.0,
+            4.0,
+            3.5,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#brain",
+          "uv": [
+            3.5,
+            4.0,
+            5.5,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#brain",
+          "uv": [
+            5.5,
+            4.0,
+            7.0,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#brain",
+          "uv": [
+            2.0,
+            0.0,
+            3.5,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "#brain",
+          "uv": [
+            3.5,
+            4.0,
+            5.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2.7,
+        5.6000000000000005,
+        7.6
+      ],
+      "to": [
+        6.3,
+        8.6,
+        12.4
+      ],
+      "faces": {
+        "west": {
+          "texture": "#brain",
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.5
+          ]
+        },
+        "north": {
+          "texture": "#brain",
+          "uv": [
+            2.0,
+            4.0,
+            3.5,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#brain",
+          "uv": [
+            3.5,
+            4.0,
+            5.5,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#brain",
+          "uv": [
+            5.5,
+            4.0,
+            7.0,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#brain",
+          "uv": [
+            2.0,
+            0.0,
+            3.5,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "#brain",
+          "uv": [
+            3.5,
+            4.0,
+            5.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        9.7,
+        5.6000000000000005,
+        7.6
+      ],
+      "to": [
+        13.3,
+        8.6,
+        12.4
+      ],
+      "faces": {
+        "west": {
+          "texture": "#brain",
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.5
+          ]
+        },
+        "north": {
+          "texture": "#brain",
+          "uv": [
+            2.0,
+            4.0,
+            3.5,
+            6.5
+          ]
+        },
+        "east": {
+          "texture": "#brain",
+          "uv": [
+            3.5,
+            4.0,
+            5.5,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#brain",
+          "uv": [
+            5.5,
+            4.0,
+            7.0,
+            6.5
+          ]
+        },
+        "up": {
+          "texture": "#brain",
+          "uv": [
+            2.0,
+            0.0,
+            3.5,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "#brain",
+          "uv": [
+            3.5,
+            4.0,
+            5.0,
+            0.0
+          ]
+        }
+      }
+    }
+  ]
+}
