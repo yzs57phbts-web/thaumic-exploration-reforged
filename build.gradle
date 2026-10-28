@@ -36,7 +36,7 @@ neoForge {
     mods { thaumicexploration { sourceSet(sourceSets.main) } }
 }
 dependencies {
-    implementation files(providers.gradleProperty('coreJar').orElse('libs/thaumcraft-4-reforged-1.1-bbtt.30-filter.1-1.21.1.jar').get())
+    implementation files(providers.gradleProperty('coreJar').orElse('libs/thaumcraft-4-reforged-1.0.1.jar').get())
     implementation files(providers.gradleProperty('tinkererJar').orElse('libs/thaumic-tinkerer-reforged-1.1-bbtt.3-1.21.1.jar').get())
     if(providers.gradleProperty('terraBlenderJar').isPresent()) {
         implementation files(providers.gradleProperty('terraBlenderJar').get())
